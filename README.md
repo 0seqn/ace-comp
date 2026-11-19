@@ -63,7 +63,7 @@ r@dPanda - ATUUNRMDBQ8=
 
 ## question 10
 
-- Reasoning and evidence:
+- Notes:
 - Answer: 01111
 
 ## question 11
@@ -102,85 +102,97 @@ Q11E. A
 
 ## question 16
 
-- Notes:
+- Notes: N/A
 - Answer:
+1. Presentation metadata: “carefully look at the layers” — a clue.
+2. Slide 5, behind an image: “The secret password is `flyinghorseplymouth`.”
+3. Slide 8, at the bottom edge: “attack in the morning.”
 
 ## question 17
 
-- Reasoning and evidence:
+- Notes:
 - Answer:
 
 ## question 18
 
-- Reasoning and evidence: decode from base 64 - decode from ROT-13 sources: https://www.dcode.fr/rot-13-cipher / https://www.dcode.fr/cipher-identifier
+- Notes: decode from base 64 - decode from ROT-13 sources: https://www.dcode.fr/rot-13-cipher / https://www.dcode.fr/cipher-identifier
 - Answer: SOCIAL ENGINEERING EXPLOITS PEOPLE NOT CODE
 
 ## question 19
 
-- Reasoning and evidence: go to - https://www.exifdata.com/ enter the image and look at thumbnail. 
+- Notes: go to - https://www.exifdata.com/ enter the image and look at thumbnail. 
 - Answer: Mini piano? 
 
 ## question 20
 
-- Reasoning and evidence:
-- Answer:
+- Notes: I averaged the RTT differences between hops 2 and 4 to isolate each inter-city link. The known 940 km Dundane–Perthos distance calibrates the fibre speed at about 264,950 km/s. That gives distances of approximately 1,459 km from Arboathia to Montrosia and 1,104 km from Montrosia to Carnoustis. Since the bearings differ by 132°, applying the cosine rule gives about 2,300 km between Arboathia and Carnoustis.
+- Answer: 2300 KM
 
 ## question 21
 
-- Reasoning and evidence:
-- Answer:
+- Notes: Work backwards from the token: 7106 − 13 − 100 = 6993, and 6993 ÷ 7 = 999
+- Answer: ID=999
 
 ## question 22
 
-- Reasoning and evidence:
-- Answer:
+- Notes: Bobs statement is true CCTV shows charlie entered, so charlies “I never entered” and davids “bob is lying” are false. “Exactly two true” means alices must be the second true one: David downloaded the file, some evidence to back this up also is his active computer at 14:04 and presence in the building support towards him being the one.
+- Answer: Most likely david
 
 ## question 23
 
-- Reasoning and evidence:
-- Answer:
+- Notes: Decoded the five tools in CyberChef: Base64 gave “ROT13”, Morse gave “BASE64”, hex gave “Citrix” (Citrix CTX1), the 5-bit Bacon cipher gave “HEX” and the 10-bit binary gave “Base32”.
+  sentences:
+“The user enters the first factor.”
+“The system then sends a one-time passcode to the user’s registered device.”
+“The user confirms their identity using a fingerprint scan.”
+“Access is granted only after all three factors are verified.”
+What type of authentication is being used here? - last sentence 
+- Answer: Multi-factor authentication (MFA) 3FA
 
 ## question 24
 
-- Reasoning and evidence:
+- Notes:
 - Answer:
 
 ## question 25
 
-- Reasoning and evidence:
-- Answer:
+- Notes:
+1. From Hex, with the delimiter set to “space”, turns the string into raw bytes.
+2. XOR Brute Force, with the scheme set to “standard”, tries every possible one-byte key.
+3. Scan the output for the one line that reads as English. Key 5a is the only one that does.
+- Answer: RANSOMWARE ENCRYPTS FILES THEN DEMANDS PAYMENT
 
 ## question 26
 
-- Reasoning and evidence:
+- Notes:
 - Answer:
 
 ## question 27
 
-- Reasoning and evidence:
+- Notes:
 - Answer:
 
 ## question 28
 
-- Reasoning and evidence:
+- Notes:
 - Answer:
 
 ## question 29
 
-- Reasoning and evidence:
+- Notes:
 - Answer:
 
 ## question 30
 
-- Reasoning and evidence:
+- Notes:
 - Answer:
 
 ## question 31
 
-- Reasoning and evidence:
+- Notes:
 - Answer:
 
 ## question 32
 
-- Reasoning and evidence:
+- Notes:
 - Answer:
