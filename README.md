@@ -1,8 +1,5 @@
 # ACE Competition Questions 2026-27
 
-Use this worksheet to record your team's own work. For each question, write down
-the reasoning and evidence you used, then record the answer you intend to submit.
-Check your work as a team against the competition instructions before submitting.
 
 ## Question 1
 
