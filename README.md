@@ -164,28 +164,51 @@ What type of authentication is being used here? - last sentence
 
 ## question 26
 
-- Notes:
-- Answer:
+- Notes: Very hard, The spectrogram revealed the key **STARSHIP**. I fixed the script so it seeds the PRNG once, then XORed each ciphertext byte with the successive keystream bytes. The readable result was `flag{seed_the_prng_once}` I used an online spectogram and entered the .wave file which gave me the "starship" key.
+- Answer: flag{seed_the_prng_once}
 
 ## question 27
 
-- Notes:
-- Answer:
+- Notes: Not sure if this is right but judging by the fact that the highest response time 85.8 ms indicates that all four digits matched
+- Answer: 5821
 
 ## question 28
 
-- Notes:
-- Answer:
+- Notes: I can get a lot of answer for this unfortunately so I would just pick one of these or try get a better answer than me. my method for this was 26= 2x13
+  reversed key 6231>1326 for example for the first answer I mentioned the others are the same its just backwards, no digits repeat.
+- Answer: 1326, 1428, 1632, 1836, 2346, 2754, 3264
 
 ## question 29
 
-- Notes:
-- Answer:
+- Notes: - `2468` has 0 correct digits, so 2, 4, 6, and 8 are excluded.
+- In `1234`, the two correct digits must be 1 and 3
+- In `5678`, the two correct digits must be 5 and 7
+- So the code uses exactly `{1, 3, 5, 7}`.
+`7091` has 2 correct digits and 2 correct positions. Since 0 and 9 are excluded, **7 is first** and **1 is fourth**.
+In `1357`, exactly two positions are correct. The 1 and 7 positions are now known to be wrong, so **3 is second** and **5 is third**.
+- Answer: 7351
 
 ## question 30
 
-- Notes:
-- Answer:
+- Notes: Sources: https://exiftool.org/ - https://exifmeta.com/ - - https://www.metadata2go.com/ - https://jimpl.com/ - https://contentcredentials.org/verify - https://29a.ch/photo-forensics/ - https://github.com/rsmbl/Resemble.js / This one took long but is not hard if u want to try get the results yourself also
+- Answer: 
+  A) Manually edited: D
+
+  `D.jpg` is a 2000×1500 JPEG with no C2PA/AI provenance. It matches the original scene dimensions and appears to be a local object removal.
+
+- B) AI-edited: A and C
+
+  `A.png` contains Google C2PA metadata: “Created by Google Generative AI” and “Applied imperceptible SynthID watermark.”
+
+  `C.png` contains: “Azure OpenAI ImageGen” and “Created image using artificial intelligence technology.”
+
+- C) Edit of another edit: A
+
+  A’s C2PA metadata includes an ingredient/parent relationship, and its background aligns with the manually cleared scene in D.
+
+- D) Fully regenerated with AI: C
+
+  C explicitly identifies Azure OpenAI ImageGen and AI creation, with no ordinary local-edit provenance.
 
 ## question 31
 
@@ -194,5 +217,5 @@ What type of authentication is being used here? - last sentence
 
 ## question 32
 
-- Notes:
-- Answer:
+- Notes: The file decrypts to a PNG blueprint sheet which is our secret recovered PNG. / I am surprised this is 8 marks because its super easy hopefully I done it correctly
+- Answer: The secret file is called recovered-secret.png I will attach it to this repo under an images folder
